@@ -458,6 +458,7 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 4.5rem;
   align-items: center;
+  text-align: justify;
 }
 
 .quienes-texto h2 {
@@ -692,14 +693,14 @@ section {
   line-height: 1.65;
 }
 
-/* Programas */
-.programas-grid {
+/* Módulos */
+.modulos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
 
-.programa-card {
+.modulo-card {
   background: white;
   border-radius: 18px;
   padding: 2.2rem;
@@ -711,17 +712,17 @@ section {
   border-left: 4px solid var(--celeste);
 }
 
-.programa-card:hover {
+.modulo-card:hover {
   transform: translateX(6px);
   box-shadow: 0 14px 50px var(--sombra-fuerte);
 }
 
-.programa-card.destacado {
+.modulo-card.destacado {
   border-left-color: var(--aguamarina);
   background: linear-gradient(135deg, white, #f0fdfa);
 }
 
-.programa-meta {
+.modulo-meta {
   display: flex;
   gap: 0.6rem;
   align-items: center;
@@ -730,7 +731,7 @@ section {
   font-weight: 600;
 }
 
-.programa-meta .badge {
+.modulo-meta .badge {
   background: linear-gradient(135deg, var(--azul), var(--celeste));
   color: white;
   padding: 0.25rem 0.7rem;
@@ -740,19 +741,19 @@ section {
   letter-spacing: 0.5px;
 }
 
-.programa-card h4 {
+.modulo-card h4 {
   color: var(--azul-profundo);
   font-size: 1.1rem;
 }
 
-.programa-card p {
+.modulo-card p {
   color: var(--gris-suave);
   font-size: 0.9rem;
   flex-grow: 1;
   line-height: 1.65;
 }
 
-.programa-link {
+.modulo-link {
   color: var(--celeste);
   text-decoration: none;
   font-weight: 700;
@@ -763,7 +764,7 @@ section {
   transition: gap 0.3s;
 }
 
-.programa-link:hover {
+.modulo-link:hover {
   gap: 0.7rem;
   color: var(--azul);
 }
